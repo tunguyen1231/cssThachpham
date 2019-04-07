@@ -1,0 +1,18 @@
+ul {
+	background: red;
+}
+
+li {
+	list-style-type: disc; /* hiển thị mặc định */
+	list-style-type: circle; /* hiển thị dấu chấm tròn không có nền */
+	list-style-type: decimal;  hiển thị dạng số 
+	list-style-type: lower-roman; /* số la mã */
+	list-style-type: upper-roman;/* số la mã in hoa */
+	list-style-type: square; /* hiển thị dấu vuông */ */ */
+	list-style-type: none;
+	list-style-position: outside;
+	/*  đưa ra bên ngoài */
+	list-style-position: inside; /* giá trị mặc định */
+	list-style-image: url()/* trang trí dấu danh sách */
+	
+}

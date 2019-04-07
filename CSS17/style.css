@@ -1,0 +1,22 @@
+.relative {
+	background-color: red;
+	width: 500px;
+	/* height: 500px; */
+	margin: 0 auto;
+	position: relative;
+}
+p {
+	position: relative;
+	z-index: 2;/*  giá trị cao hơn sẽ hiển thị nổi lên */
+}
+img{
+	position: relative; /* không thay đổi cấu trúc nhưng có thể di chuyển nó */
+	top: 50%;
+	left: 50%;
+	/* right: 2px; */
+	width: 300px;
+	position: static; /* giá trị mặc định */
+	position: absolute;/*  hiển thị trong không gian tương đối trong phần tử mẹ*/
+	position: fixed;
+	z-index: 1; /*  giá trị thấp hơn sẽ hiển thị chìm xuống dưới */
+}

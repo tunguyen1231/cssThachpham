@@ -1,0 +1,15 @@
+div{
+	background-image: url('https://znews-photo.zadn.vn/w660/Uploaded/fcivbqmv/2019_02_27/Screenshot_10_1.jpg'),
+	url('https://znews-photo.zadn.vn/w860/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg');
+	width: 500px;
+	height: 300px;
+	padding: 55px;
+	background-repeat: repeat-x; /* lặp theo chiều ngang */
+	background-repeat: repeat-y; /* lặp theo chiều dọc */
+	background-repeat: space; /* lặp đều có khoảng trống */
+	background-repeat: round;
+	background-repeat: repeat;/* lặp đều mặc định */
+	background-repeat: no-repeat;/* không lặp ảnh */
+	background-position: bottom left, top right;
+	background-size: 100px, 400px;
+}

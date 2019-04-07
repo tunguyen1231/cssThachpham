@@ -1,0 +1,21 @@
+.trang-tri{
+	/* text-align: left;
+	text-align: right;
+	text-align: center;
+	text-align: justify; */ /* căn đều 2 bên */
+	text-decoration: overline; /* gạch dưới */
+	text-decoration: underline; /* gạch trên */
+	text-decoration: line-through; /* gạch giữa văn bản */
+	text-decoration: none;
+	
+	text-indent: 100px;
+	
+	text-shadow: blue 2px 3px 4px, red 2px 1px 3px;
+	/* đổ bóng cho chữ */
+	
+	text-transform: capitalize;
+	/* chữ hoa đầu */
+	text-transform: uppercase;
+	/* toàn bộ văn bản thành chữ hoa */
+	text-transform: none;
+}

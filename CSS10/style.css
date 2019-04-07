@@ -1,0 +1,9 @@
+div{
+	background: red;
+	height: auto; /* tự động căn chỉnh */
+	max-height: 500px;/*  chiều cao tối đa */
+	min-height: 300px; /*  chiều cao tối thiểu */
+	width: 300px;
+	max-width: 500px; /*  chiều rộng tối đa */
+	min-width:500px; /* chiều rộng tối thiểu */
+}

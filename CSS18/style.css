@@ -1,0 +1,20 @@
+a{
+	color: red;
+	text-decoration: none;
+}
+a:hover{
+	color: green;
+	font-weight: bold;
+	display: block;
+	width: 50px;
+	background: black;
+}
+a:visited{
+	color: purple;
+}/*  sau khi nhấn chuột vào thẻ a */
+a:link{
+	color: blue;
+}
+a:active{
+	background: yellow;
+}/* nhấp vào nhưng chưa thả chuột */

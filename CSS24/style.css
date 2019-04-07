@@ -1,0 +1,36 @@
+#box{
+	width: 200px;
+	height: 200px;
+	background: red;
+	transition: all 1s;
+}
+#box:hover{
+	/* transform: skew(); */ /* nghiêng */
+	/* transform: scale(); */ /* thủ nhỏ hoặc phóng to */
+	transform: rotate(80deg); /* xoay */
+	/* transform: translate(); */ /* dịch chuyển phần tử này*/
+}
+
+img{
+	transition: all 1s;
+}
+img:hover{
+	transform: rotate(180deg);
+	transform: rotate(1turn); /* 360deg = 1turn */
+} 
+
+img:hover{
+	transform: skew(-80deg);
+	transform: skewX(-80deg);
+	transform: skewY(-80deg);
+} 
+img:hover{
+	transform: scale(-3);
+	transform: scaleX(2);
+	transform: scaleY(3);
+} 
+
+img:hover{
+	transform: translate(35px,50%);
+	transform-origin: 100% 300%;
+} 

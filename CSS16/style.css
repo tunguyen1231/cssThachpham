@@ -1,0 +1,32 @@
+.inline{
+	background-color: lightgrey;
+	border: 1px solid red;
+	display: inline;/* chuyển về dạng inline */
+}
+
+.block{
+	background-color: blue;
+	display: block; /* chuyển về dạng block */
+}
+
+.list div{
+	list-style-type: square;
+	margin-left: 32px;
+	display: list-item;
+}
+
+.container{
+	width: 60%;
+	margin: 0 auto;
+	display: table;
+}
+.row{
+	display: table-row;
+	
+}
+
+.col{
+	display:table-cell;
+	background: red;
+	border: 1px solid;
+}
